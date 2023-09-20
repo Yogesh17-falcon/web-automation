@@ -4,7 +4,7 @@
 #sets no of quantities for buy
 quantity__for__buy = 2
 #sets the how much mius price u want from current/last traded price
-price__for__buy = 2 
+price__for__buy = [1, 3, 5] 
 
 #------------for sell (zerodha_sell_positions.py)--------------#
 
@@ -37,4 +37,4 @@ filter__id = 4174707
 
 #-----------------for select no of stocks from filter (select_value_from_filter.py)--------------------
 
-select__numbers__of__stocks = 5
+select__numbers__of__stocks = 2

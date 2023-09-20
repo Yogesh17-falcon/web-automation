@@ -54,12 +54,12 @@ def zerodha__add__filtered__stock(top_three_stocks):
 
             zerodha__buy__orders()
 
-           
-            
 
 # --------------------------SELL-------------------------------------
         
         # zerodha__sell__positions()
+
+
         
 
     
