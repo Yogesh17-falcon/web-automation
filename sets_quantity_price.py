@@ -4,7 +4,7 @@
 #sets no of quantities for buy
 quantity__for__buy = 2
 #sets the how much mius price u want from current/last traded price
-price__for__buy = [1, 3, 5] 
+price__for__buy = [0, 1, 3] 
 
 #------------for sell (zerodha_sell_positions.py)--------------#
 
@@ -12,6 +12,7 @@ price__for__buy = [1, 3, 5]
 quantity__for__sell = 1
 #sets the how much + price u want from current/last traded price
 price__for__sell = 1
+
 
 #-----------------for filter id (trading_view_filter.py)-----------------------#
 
@@ -37,4 +38,8 @@ filter__id = 4174707
 
 #-----------------for select no of stocks from filter (select_value_from_filter.py)--------------------
 
-select__numbers__of__stocks = 2
+select__numbers__of__stocks = 3
+
+#---------------------------Select run time in minutes for sell (main.py)------------------------
+
+minutes__run__sell__time = 10

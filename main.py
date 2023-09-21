@@ -6,6 +6,7 @@ from google_signIn import google__sign__function
 import schedule
 import time
 from zerodha_sell_positions import zerodha__sell__positions
+from sets_quantity_price import minutes__run__sell__time
 
 def main():
     # 1. Sign into Google Account  (include check if account exists or not)
@@ -55,7 +56,7 @@ if __name__=="__main__":
     main()
 
     # set up sell running or every 1 min
-    schedule.every(1).minutes.do(zerodha__sell__positions)
+    schedule.every(minutes__run__sell__time).minutes.do(zerodha__sell__positions)
 
     while True:
         schedule.run_pending()
